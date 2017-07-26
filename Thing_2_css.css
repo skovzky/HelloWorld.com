@@ -2,6 +2,8 @@ html{
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+
+
 #nav-div{
 	font-size: 26px;
 	/*-color: gray; */
@@ -28,35 +30,24 @@ a:hover{
 	text-decoration: underline;	
 }
 
-#closer{
+
+
+#music-div{
+	font-size: 36px;
+	padding:20px;
 	text-align: center;
 }
 
-#games{
-	list-style: none;
-	font-size: 30px;
-	padding-bottom: 40px;
-}
-
-img{
-	padding: 20px;
-	padding-right: 40px;
-	max-width: 50%;
-}
-
-h4{	
-	text-align: center;
-	font-size: 80px;
-}
-
-#games_div{
-	text-align: center;
-	/*border: dotted #333333 1px; */
-	width:66%;
+#player{
+	padding-top: 10px;
+	width:100%;
 	margin:0 auto;
 }
 
-a{
-	text-decoration: none;
-	color: rgb(0,0,0);
+iframe{
+	padding-left: 40%;
+}
+
+#closer{
+	text-align: center;
 }

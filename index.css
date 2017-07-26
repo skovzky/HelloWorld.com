@@ -1,19 +1,47 @@
 html{
-	font-family: Impact;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
-#nav{
+#id{
+	/*an attempt... */
+	border-radius: 50%;
+}
+
+#nav-div{
+	font-size: 26px;
+	/*-color: gray; */
+	text-align: center;
+	/*border: dotted #333333 1px; */
+	width:100%;
+	margin:0 auto;
+}
+
+#nav-li{
 	display: inline;
+	padding-right: 10px;
+}
+
+a{
+	/*after integrating these directly into the code for a day (b/c thats what
+	ppl do on stack overflow for small examples) I realized I could put it here 
+	instead of typing it each and every time */
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+a:hover{
+	text-decoration: underline;	
 }
 
 body{
-	background-image: url("stardust_@2X.png");
+	/*background-image: url("stardust_@2X.png"); */
 	/*https://www.toptal.com/designers/subtlepatterns/ */
+
 }
 
 h4{
 	background-color: white;	
-	font-size:20px; 
+	font-size:40px; 
 	text-align:center;
 }
 
@@ -23,11 +51,12 @@ h4{
 	float:left;
 	width:200px;
 	height:60px;
-	padding:0px 0px 30% 0px;
+	padding:0px 0px 20% 0px;
 	border:outset #333333 2px; 
 	margin:0px 10px 0px 0px;
 	color:black;
 }
+
 
 #list{
 	/*padding: 0px 0px 0px 0px; 
@@ -39,7 +68,7 @@ h4{
 	font-size: 26px;
 	background-color: white;
 	text-align: center;
-	border: dotted #333333 1px;
+	/*border: dotted #333333 1px; */
 	width:50%;
 	margin:0 auto;
 }
