@@ -1,0 +1,28 @@
+#closer{
+	text-align: center;
+}
+
+#games{
+	list-style: none;
+	font-size: 30px;
+	font-family: Impact;
+}
+
+img{
+	padding: 20px;
+	padding-right: 40px;
+	max-width: 50%;
+}
+
+h4{	
+	text-align: center;
+	font-family: Impact;
+	font-size: 80px;
+}
+
+#games_div{
+	text-align: center;
+	border: dotted #333333 1px;
+	width:66%;
+	margin:0 auto;
+}

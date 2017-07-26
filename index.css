@@ -1,18 +1,45 @@
+html{
+	font-family: Impact;
+}
+
+#nav{
+	display: inline;
+}
+
+body{
+	background-image: url("stardust_@2X.png");
+	/*https://www.toptal.com/designers/subtlepatterns/ */
+}
+
 h4{
-	font-size:40px;
+	background-color: white;	
+	font-size:20px; 
 	text-align:center;
-  font-family:Impact;
 }
 
 #sidebar{
-	/*background-color:#B20000; */
-	text-align: center;
-	float:right;
+	background-color: white;
+	text-align: left;
+	float:left;
 	width:200px;
-	height:70px;
+	height:60px;
 	padding:0px 0px 30% 0px;
 	border:outset #333333 2px; 
 	margin:0px 10px 0px 0px;
 	color:black;
-	font-family:Impact;
+}
+
+#list{
+	/*padding: 0px 0px 0px 0px; 
+	left: 20px; */
+	left: 20px;
+	position: relative;
+}
+#intro{
+	font-size: 26px;
+	background-color: white;
+	text-align: center;
+	border: dotted #333333 1px;
+	width:50%;
+	margin:0 auto;
 }
