@@ -36,10 +36,12 @@ a:hover{
 	font-size: 36px;
 	padding:20px;
 	text-align: center;
+	width: 50%;
+	margin: 0 auto;
 }
 
 #player{
-	padding-top: 10px;
+	padding-top: 20px;
 	width:100%;
 	margin:0 auto;
 }
