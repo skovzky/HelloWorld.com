@@ -1,0 +1,18 @@
+h4{
+	font-size:40px;
+	text-align:center;
+  font-family:Impact;
+}
+
+#sidebar{
+	/*background-color:#B20000; */
+	text-align: center;
+	float:right;
+	width:200px;
+	height:70px;
+	padding:0px 0px 30% 0px;
+	border:outset #333333 2px; 
+	margin:0px 10px 0px 0px;
+	color:black;
+	font-family:Impact;
+}
