@@ -72,3 +72,23 @@ h4{
 	width:50%;
 	margin:0 auto;
 }
+
+#dallas{
+	padding-top: 40px;
+}
+
+#dallas-img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#dallas-txt{
+	color:white; 	
+	font-size: 40px; 
+	text-align: center;
+	position: absolute; 
+	top: 550px; 
+	padding-left: 20%;
+	width: 60%; 
+}
