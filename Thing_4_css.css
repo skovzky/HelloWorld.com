@@ -49,3 +49,33 @@ h4{
 	margin:0 auto;
 }
 /* CSS for All Pages END */
+
+#exp-content{
+	font-size: 26px;
+	background-color: white;
+	text-align: center;
+	/*border: dotted #333333 1px; */
+	width:50%;
+	margin: 0 auto;
+	display: none;
+}
+
+#wrapper{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#button{
+	background-color: #f0da50; /* Yellow */
+	color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#button:hover{
+	background-color: #ffffff;
+}

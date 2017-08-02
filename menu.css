@@ -1,0 +1,40 @@
+#nav-div{
+	font-size: 26px;
+	/*-color: gray; */
+	text-align: center;
+	/*border: dotted #333333 1px; */
+	width:100%;
+	margin:0 auto;
+}
+
+#nav-li{
+	display: inline;
+	padding-right: 10px;
+}
+
+#nav-li-music{
+	display: inline;
+	padding-right: 10px;
+}
+
+#music:hover{
+	display: inline;
+	color: #6ae368;
+}
+
+#JS:hover{
+	display:inline;
+	color: #f0da50;
+}
+
+a{
+	/*after integrating these directly into the code for a day (b/c thats what
+	ppl do on stack overflow for small examples) I realized I could put it here 
+	instead of typing it each and every time */
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+a:hover{
+	text-decoration: underline;	
+}
