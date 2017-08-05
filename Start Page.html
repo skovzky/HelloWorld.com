@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="Start Page.css"/>
+
+	<head>
+				<style> @import url('https://fonts.googleapis.com/css?family=Josefin+Sans'); </style>
+
+		<title>
+			Site 1
+		</title>
+		<script src="start.js"></script>
+
+		<!-- NAV BAR START (in head, after title) -->
+		<!--<script src="Menu.js"></script>-->
+		<!-- NAV BAR END -->	
+
+	</head>
+
+
+	<body>
+			<h4>
+			Two Roads Diverged...
+			</h4>
+
+			<div id="branch">
+				<p id="content">
+					click a node to choose a path
+				</p>
+
+				<p>
+					<img id="branch-img" src="branch.png" align:"middle" usemap="#branchmap">
+
+					<map name="branchmap">
+						<area id="Main-Area" onhover="Preview1()" shape="circle" coords="77,75,75" href="index.html" alt="Road More Traveled">
+						<area id="Second-Page" shape="circle" coords="331,126,75" href="thing_3.html" alt="Less Traveled">
+					</map>
+
+				</p>
+				
+			</div>
+
+
+				<!-- CLOSER START -->
+		<p id="closer">
+			<a href="index.html" >Main Page</a> <a href="Thing_1.html" >	To Top</a>
+		</p>
+		<!-- CLOSER END -->
+	</body>
+
+</html>
