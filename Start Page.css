@@ -1,7 +1,7 @@
 
 /* CSS for All Pages START */
 html{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Courier New';
 	background-color: #2e2e2e;
 }
 
@@ -24,6 +24,7 @@ a:hover{
 h4{
 	font-size:40px; 
 	text-align:center;
+	color:white;
 }
 
 #content{
@@ -33,6 +34,7 @@ h4{
 	/*border: dotted #333333 1px; */
 	width:50%;
 	margin:0 auto;
+	color: white;
 }
 /* CSS for All Pages END */
 

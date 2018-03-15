@@ -5,7 +5,7 @@ document.write('\
 				<a href="index.html">Home</a>\
 			</li>\
 			<li id="nav-li">\
-				<a href="Thing_5.html" >School</a>\
+				<a href="Thing_1.html" >Pojects</a>\
 <!--		</li>\
 			<li id="nav-li">\
 				<a href="Thing_1.html" >Cooking</a>\
