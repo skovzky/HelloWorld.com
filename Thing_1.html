@@ -25,36 +25,85 @@
 				<p>
 					There are a lot of projects I'd like to work on.
 					The idea for most of them is to stay under around $100 and end up with a good final project. 
-				</p>	
-				<p>
-					Click on a project idea to learn more abou it.
-					<details>
-						<summary>Physical Music Visualizer</summary>
-						<p>This text will be hidden if your browser supports it.</p>
-					</details>
-					<details>
-						<summary>Dumb Smart Watch</summary>
-						<p>This text will be hidden if your browser supports it.</p>
-					</details>
-					<details>
-						<summary>Open Source Alexa</summary>
-						<p></p>
-					</details>
-					<details>
-						<summary>Private Messenger Node</summary>
-						<p></p>
-					</details>
-					<details>
-						<summary>Infinity Mirror</summary>
-						<p></p>
-					</details>
-					<details>
-						<summary>Home Media Server</summary>
-						<p></p>
-					</details>
 				</p>
-				
-			</div>
+				<div id="list">				<!-- theres a problem here when the details are opened. It invovles CSS. Fix Later -->
+					<p>
+						Click on a project idea to learn more about it.
+						<details>
+							<summary>Physical Music Visualizer</summary>
+								<p>
+									A physical, wall-mounted music level visualier. This project would take input through a microphone and display volume levels of various frequencies, much like many software visualizers. 
+								</p>
+						</details>
+						<details>
+							<summary>Dumb Smart Watch</summary>
+							<p>
+								A smart watch that only serves to show a presence of unread phone notifications, like email and texts, and to control music. 
+							</p>
+							<p>
+								Of course it would also show the time. 
+							</p>
+						</details>
+						<details>
+							<summary>Open Source Alexa</summary>
+								<p>
+									Ok so this one is actually really simple. It uses a raspberry pi 3, a mic, and speakers to make what is effectively an Alexa/Amazon Echo alternative that doesn't listen in on you. 
+								</p>
+								<p>
+									My idea was to take the pi with the microphone and plug it into an existing speaker I have with an Aux cable. This simplifies the project nicely and makes the fabrication of some sort of housing to be much easier because it is an attachment not a stand-alone device. 
+								</p>
+						</details>
+						<details>
+							<summary>Private Messenger Node</summary>
+								<p>
+									This project builds upon the pirate box idea and make a localized and private chatroom. 
+									Implementation of such a device would be as follows:
+									<ol>
+										<li>
+											User 1 goes into a designated area with the pirate box running on battery. The device could be in a backpack or hidden somewhere else.
+										</li>
+										<li>
+											User 1 then discretely sets up the device in the designated area. 
+										</li>
+										<li>
+											Users N enter the area and connect to the device using a key only they have.
+										</li>
+										<li>
+											At this point Users N are privately connected to the box and a chatroom is run off of the machine and displayed on Users N's machines. Chat Logs are only saved on the host machine 
+										</li>
+									 
+									</ol>
+								</p>
+								<p>	
+									The device would be hidden to other devices so no one accidentally gets on the chat room
+									Users N connect and join the chat room. The chat would be run and saved locally on the device and therefore secure (unless a user pulls info off of it)
+									When the chat is over User 1 can just leave and everyone else connect can just leave. The people never have to meet face to face, just go to a populated area and be on their computers.
+								</p>
+						</details>
+						<details>
+							<summary>Infinity Mirror</summary>
+							<p>
+								<img src="https://i.ytimg.com/vi/YuoQ3cFd6Cg/maxresdefault.jpg" align="middle">
+
+							</p>
+						</details>
+						<details>
+							<summary>Home Media Server</summary>
+							<p>
+									Something that will hold a library of digital movies and music.It should be something that is plugged into a television at all times, but it would be cool if it could stream to other devices through a web browser.
+									Needs a DVD/BlueRay player and should be able to record off of discs and save them to the library
+									Simple UI to allow users to search and browse their collection.
+									Separation between music and movies, should be able to search through these two libraries. 
+									Needs to be able to edit metadata of audio and video files.
+									Needs software to manage the libraries locally. 
+									
+							</p>
+						</details>
+					</p>
+
+
+				</div> <!-- list div -->
+			</div>	   <!-- content div -->
 			
 
 

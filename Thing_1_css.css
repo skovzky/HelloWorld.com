@@ -51,8 +51,17 @@ h4{
 	text-align:center;
 }
 
-
 #content{
+	font-size: 32px;
+	background-color: white;
+	text-align: center;
+	/*border: dotted #333333 1px; */
+	width:70%;
+	margin:0 auto;
+}
+
+/* theres a problem here when the details are opened. It invovles CSS. Fix Later */
+#list{
 	font-size: 26px;
 	background-color: white;
 	text-align: center;

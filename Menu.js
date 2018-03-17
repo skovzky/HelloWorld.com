@@ -6,14 +6,14 @@ document.write('\
 			</li>\
 			<li id="nav-li">\
 				<a href="Thing_1.html" >Pojects</a>\
-<!--		</li>\
+			</li>\
 			<li id="nav-li">\
-				<a href="Thing_1.html" >Cooking</a>\
-			</li>				-->\
-			<li id="nav-li">\
+				<a href="Thing_3.html" >Tools</a>\
+			</li>\
+<!--			<li id="nav-li">\
 				<a id="music" href="Thing_2.html" >Music</a>\
 			</li>\
-<!--		<li id="nav-li">\
+		<li id="nav-li">\
 				<a href="Thing_3.html" >Games I\'ve Enjoyed</a>\
 			</li>\
 			<li id="nav-li">\

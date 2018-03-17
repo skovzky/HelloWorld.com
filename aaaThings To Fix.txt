@@ -1,0 +1,4 @@
+Thing 1
+        visual bug where revealing details changes the layout of the div about/outside it
+
+        center (and crop) the image for the infinity mirror

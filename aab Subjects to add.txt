@@ -1,0 +1,17 @@
+Subjects
+    ~Projects~
+    Classes
+    Interests
+    ~Tools
+
+Tools
+    Visual Studio Code
+    Xilinx
+    that new Pspice thing
+    The EE lab tools
+        osciliscope, wave generator, etc
+
+Classes
+    General chatter on the classes I've taken, what ive liked and disliked
+
+Interests
